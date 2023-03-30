@@ -1,0 +1,25 @@
+.scrolling img{
+    padding: 0;
+    border: 0;
+    display: inline-block;
+    width: 400px;
+    height: auto;
+}
+.scrolling{
+    padding: 0;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+
+.whitespace{
+    height: 18vh;
+}
+
+body{
+    background-image: url(background.jpeg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

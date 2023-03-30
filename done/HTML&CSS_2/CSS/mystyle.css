@@ -1,0 +1,410 @@
+h3 {font-size: 20px; color: white; }
+h4 {font-size: 14px; color: white;}
+h5 {font-size: 20px; color: white;}
+
+.html, .body{
+  height: 100%;
+}
+
+.header {
+
+    padding: 20px;
+    background-image: url(/HTML&CSS_2/media/space_school.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    font-size: 10px;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    position: absolute;
+    left: 44%;
+    top: 12px;
+}
+
+.footer{
+  background-image: url(/HTML&CSS_2/media/footer.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 40px;
+  text-align: center;
+}
+h2{
+  color: white;
+}
+
+form input[type=submit] { margin-top: 20px; }
+* {
+  box-sizing: border-box;
+}
+
+.tabel1 {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.index{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: rgb(21, 2, 24);
+  height: 900px;
+}
+
+.header1 h1 {
+  font-size: 40px;
+}
+
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color: rgb(21, 2, 24);
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: rgb(21, 2, 24);
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.img {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .footer_bar a:hover {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.footer_bar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.footer_bar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.grid-container{
+  display: inline-grid;
+}
+
+.header-grid, .main-grid, .left-grid, .footer-grid{
+  padding: 0%;
+  margin: 0%;
+}
+.header-grid{
+  width: 100vw;
+}
+
+.left-grid{
+  float: right;
+  width: 30vw;
+  padding-right: 20px;
+}
+.main-grid{
+  float: left;
+  width: 95vw;
+  padding-left: 30px;
+  
+}
+
+.main-grid-index{
+  float: left;
+  width: 68vw;
+  padding-left: 30px;
+  
+}
+
+#holder{
+  min-height: 100%;
+  position: relative;
+}
+
+#body{
+  padding-bottom: 100px;
+}
+
+.footer-grid{
+  height: 100px; 
+  width:100%;
+  left: 0;
+  bottom: 0; 
+}
+
+.fakeimg{
+  margin: 10px;
+}
+
+.footer_bar{
+  width: 100vw;
+  height: 30px;
+}
+
+.melkweg, .space{
+  width: 300px;
+}
+
+.big-bang{
+  height: 300px;
+  float: right;
+  margin: 10px;
+}
+
+h8{
+  font-size: 14px; color: white;
+ height: 335px;
+ width: 58vw;
+}
+
+.galaxies{
+  height: 300px;
+  float: right;
+}
+h9{
+  font-size: 14px; color: white;
+
+}
+
+.stars{
+  color: white;
+}
+
+.container{
+  width: 2000px;
+  height: 300px;
+  background-image: url("/HTML&CSS_2/media/1638085.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.planets{
+  color: white;
+}
+
+.youtube{
+  max-height: 500px;
+  margin: 0px;
+}
+
+.footer-grid1{
+  height: 100px; 
+  width:100%;
+  left: 0;
+  bottom: 0; 
+  top: 907px;
+  position: absolute;
+}
+
+.headeropdr1{
+  border: solid rgb(255, 255, 255) 3px;
+  margin: 10px;
+  text-align: center;
+  height: 100px;
+}
+
+.side_baropdr1{
+  border: solid rgb(255, 255, 255) 3px;  
+  float: left;
+  margin: 10px;
+  text-align: center;
+  padding: 250px 123px 250px;
+}
+
+.main_contentopdr1{
+  border: solid rgb(255, 255, 255) 3px;
+  margin: 10px;
+  float: right;
+  padding: 10px;
+  width: 1600px;
+  height: 506px;
+}
+
+.footeropdr1{
+  border: solid rgb(255, 255, 255) 3px;
+  position: absolute;
+  bottom: 40px;
+  margin: 10px;
+  text-align: center;
+  width: 1934px;
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+.opdr1h{
+  color: white;
+  top: 170px;
+}
+.opdr1m{
+  color: white;
+  top: 480px;
+}
+.opdr1s{
+  color: white;
+  top: 480px;
+  left: 100px;
+}
+.opdr1f{
+  color: white;
+
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(255, 195, 127);
+  padding: 10px;
+  height: 899px;
+}
+.grid_box{
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(255, 181, 61);
+  border-radius: 9px;
+  margin: 5px;
+}
+
+
+
+.opdr4t{
+  color: white;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 10px 10px 5px 5px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgb(0, 255, 128);
+}
+.opdr4t thead tr{
+  background-color: #009879;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+.opdr4t td,
+.opdr4t th{
+  padding: 12px 15px;
+}
+
+.opdr4t tbody tr{
+  border-bottom: 1px solid #dddddd;
+}
+
+.opdr4t tbody tr:nth-of-type(even){
+  background-color: #f3f3f338;
+}
+
+.opdr4t tbody tr:last-of-type {
+  border-bottom: 3px solid #009879;
+}
+
+#wrapper{
+  color: rgb(255, 255, 255);
+}
+
+label{
+  display: block;
+  padding-bottom: 24px;
+}
+label > span{
+  display: inline-block;
+  margin-bottom: 4px;
+}
+input{
+  border: 1px solid black;
+  padding: 6px;
+}
+

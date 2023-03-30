@@ -1,0 +1,261 @@
+.header {
+
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    height: 100px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    text-align: center;
+  }
+
+form input[type=submit] { margin-top: 20px; }
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.tabel1 {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(78, 78, 78);
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn, .footer_bar a:hover {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.titel{
+    position: absolute;
+left: 10vw;
+}
+
+html,body
+{
+  height: 5500px;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.buttons_top{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;   
+    height: 40px;
+    text-decoration:none
+}
+.buttons{
+    position: absolute;
+   left: 70vw;
+   top: 40px;
+   width: 30vw;
+   text-decoration:none
+
+}
+
+.buttons2{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 60px 100px;
+    text-align: center;
+    text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration:none;
+    position: relative;
+    top: 1240px;
+    left: 105%;
+}
+
+.buttons3{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 60px 100px;
+    text-align: center;
+    text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration:none;
+    position: relative;
+    top: 2000px;
+    left: 40%;
+}
+
+.buttons4{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 60px 100px;
+    text-align: center;
+    text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration:none;
+    position: relative;
+    top: 2900px;
+    left: 95%;
+}
+
+.buttons5{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 60px 100px;
+    text-align: center;
+    text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration:none;
+    position: relative;
+    top: 3570px;
+    left: 31%;
+}
+
+.text1{
+    position: relative;
+    top: 400px;
+    left: 80%;
+    color: white;
+    width: 70%;
+
+}
+
+.text2{
+    position: relative;
+    top: 1100px;
+    left: 30%;
+    color: darkslategray
+}
+
+.text3{
+    position: relative;
+    top: 1850px;
+    left: 95%;
+    color: darkslategray;
+}
+
+.text4{
+    position: relative;
+    top: 2740px;
+    left: 35%;
+    color: darkslategray
+}
+
+.text5{
+    position: relative;
+    top: 3420px;
+    left: 90%;
+    color: whitesmoke;
+}
+.index{
+    margin: 0px;
+
+}   
+
+.background1{
+    background-image: url(images/merge_from_ofoct.jpg);
+    height: 500%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: absolute;
+    position: absolute;
+}
+
+.htmlunderline{
+    text-decoration:none
+}
+.dieren{
+   
+        width: 100vw;
+        height: 50vw;
+background-color: blanchedalmond;
+}
+
+
+.footer_index {
+  text-align: center;
+  padding: 10px;
+  background-color: DarkSalmon;
+  color: white;
+  top: 5482px;
+  width: 100vw;
+  position: absolute;
+
+}
